@@ -1,0 +1,62 @@
+.top-players-container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #fff5e1;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.back-button-small {
+  display: inline-block;
+  background-color: #f3cfa1;
+  border: none;
+  color: #4b2c20;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  max-width: fit-content;
+}
+
+.back-button-small:hover {
+  background-color: #e3ba85;
+}
+
+.top-players-container h2 {
+  margin-bottom: 1rem;
+  color: #4b2c20;
+}
+
+.top-players-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff9ec;
+  border: 1px solid #f0d8b6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.top-players-table th,
+.top-players-table td {
+  border: 1px solid #f0d8b6;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.top-players-table th {
+  background-color: #f3cfa1;
+  color: #4b2c20;
+  font-weight: bold;
+}
+
+.top-players-table tr:nth-child(even) {
+  background-color: #fef5e7;
+}
+
+.top-players-table tr:hover {
+  background-color: #f0e0c0;
+}
